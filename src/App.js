@@ -1,5 +1,5 @@
 import React from 'react'
-import { Router, Link } from 'react-static'
+import { Router } from 'react-static'
 import { css } from 'glamor'
 import glamorous from 'glamorous'
 import { hot } from 'react-hot-loader'
