@@ -1,7 +1,7 @@
 
 import React from 'react'
 import { withRouteData, Link } from 'react-static'
-//
+// @todo #1:30min remove Blog page
 
 export default withRouteData(({ posts }) => (
   <div>

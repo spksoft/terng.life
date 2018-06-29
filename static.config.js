@@ -5,6 +5,7 @@ import { renderStaticOptimized } from 'glamor/server'
 
 export default {
   getRoutes: async () => {
+    // @todo #1:30min remove useless route
     const { data: posts } = await axios.get('https://jsonplaceholder.typicode.com/posts')
     return [
       {

@@ -1,6 +1,6 @@
 
 import React from 'react'
-//
+// @todo #1:30min remove About page
 
 export default () => (
   <div>
