@@ -10,7 +10,7 @@ const LogoImage = glamorous.img({
 
 export default withSiteData(() => (
   <div>
-    <h1 style={{ textAlign: 'center' }}>Welcome to</h1>
+    <h1 style={{ textAlign: 'center' }}>Welcome to terng.life</h1>
     <LogoImage src={logoImg} alt="" />
   </div>
 ))
