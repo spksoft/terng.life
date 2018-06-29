@@ -16,4 +16,4 @@ jobs:
       - run: echo $privatekey > temp_base64_private
       - run: base64 -d temp_base64_private > ~/.ssh/id_rsa
       - run: rm -rf temp_base64_private
-      - run: ssh -t $host_username@$host_ip "source ~/script-clone-frontend.sh"
+      - run: ssh -o "StrictHostKeyChecking no" -t $host_username@$host_ip "source ~/script-clone-frontend.sh"
