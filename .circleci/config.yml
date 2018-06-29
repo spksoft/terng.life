@@ -12,6 +12,7 @@ jobs:
       - checkout
       - run: apk update
       - run: apk add openssh
+      - run: mkdir ~/.ssh
       - run: echo $privatekey > temp_base64_private
       - run: base64 -d temp_base64_private > ~/.ssh/id_rsa
       - run: rm -rf temp_base64_private
