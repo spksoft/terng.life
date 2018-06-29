@@ -10,6 +10,8 @@ jobs:
     working_directory: ~
     steps:
       - checkout
-      - run: id
+      - run: mkdir -r ~/.ssh'
+      - run: echo $privatekey | base64 --decode > ~/.ssh/id_rsa
+      - run: cat ~/.ssh/id_rsa
 
 
