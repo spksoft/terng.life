@@ -3,10 +3,8 @@ import glamorous from 'glamorous'
 import { css } from 'glamor'
 
 const PageContainer = glamorous.div(tw('flex flex-wrap h-screen'))
-const LeftContainer = glamorous.section(tw('w-full sm:w-full md:w-1/2 lg:w-3/7 self-center text-center '))
-const RightContainer = glamorous.section(tw('w-full sm:w-full md:w-1/2 lg:w-4/7 flex self-center justify-center md:justify-start mb-1'))
-const ContentContainer = glamorous.section(tw('flex flex-col w-4\/5 justify-center overflow-y-scroll max-h-screen'))
-const Content = glamorous.p(tw('h-full'))
+const ContentContainer = glamorous.section(tw('flex flex-col justify-center items-center overflow-y-scroll max-h-screen'))
+const Content = glamorous.div(tw('h-full'))
 const B = glamorous.b({
   fontWeight: 'bold',
 })
@@ -17,7 +15,7 @@ const buttonGroupCSS = css({
   flex: 1,
   justifyContent: 'center',
   alignItems: 'center',
-  padding: '15px 0px 0px 0px',
+  padding: '30px 0px 0px 0px',
 })
 
 const iconButton = css({
@@ -31,16 +29,14 @@ const paddingLeftRight = css({
 
 export default () => (
   <PageContainer>
-    <LeftContainer>
-      <h1>Sippakorn Raksakiart</h1>
-    </LeftContainer>
-    <RightContainer>
-      <ContentContainer style={{ maxHeight: '500px' }}>
-        <Content>
-          <div>
-            Hello, I'm <B>Terng</B>. Now, I'm a <B>Software Architect at True corporation (Thailand)</B>. I was born in Phitsanulok town and <B>I love to coding since I'm 13 years old</B>
-            when I was 15 year old my program <B>'sPkAutorunkiller' was publish in COMPUTER.TODAY magazine</B> and also I'm a owner of <B>sPkSecurityGen Pullo ChoiceChecker terng.life BikerApp</B> too.
-            I graduated from <B>Computer Engineering</B> department from <B>King Mongkut's University of Technology Thonburi</B>. For my work experince, <B>I'm Software Enginner at BlueBik, Contractor software enginner at HBOT.io, Full Stack Developer at FIN$TREET and Software Architect at True corporation</B>
+    <ContentContainer>
+      <Content>
+        <div>
+          <ContentContainer>
+            <h1>Sippakorn Raksakiart</h1>
+          </ContentContainer>
+          <div style={{ padding: '0px 500px 0px 500px' }}>
+          I am a web developer, software engineer, and project manager currently living in Bangkok, Thailand. My interests range from photography to technology. I am also interested in entrepreneurship, reading, and movies.You can click the button 'Hire me if you can' to hire me. If you’d like to get in touch, feel free to say hello through any of the social links below.
           </div>
           <div {...buttonGroupCSS}>
             <Button onClick={() => { window.open('https://www.linkedin.com/in/sippakorn-raksakiart-4b5365b9/') }}>Hire me if you can</Button>
@@ -56,8 +52,8 @@ export default () => (
               <a href="mailto:spkrsk.37@gmail.com"><img width={16} height={16} src="img/opened-email-envelope.png" /></a>
             </div>
           </div>
-        </Content>
-      </ContentContainer>
-    </RightContainer>
+        </div>
+      </Content>
+    </ContentContainer>
   </PageContainer>
 )
