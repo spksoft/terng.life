@@ -17,7 +17,16 @@ const buttonGroupCSS = css({
   flex: 1,
   justifyContent: 'center',
   alignItems: 'center',
-  padding: '50px 0px 0px 0px',
+  padding: '15px 0px 0px 0px',
+})
+
+const iconButton = css({
+  flexDirection: 'row',
+  padding: '10px 0px 0px 0px',
+})
+
+const paddingLeftRight = css({
+  padding: '0px 3px 0px 3px',
 })
 
 export default () => (
@@ -35,6 +44,17 @@ export default () => (
           </div>
           <div {...buttonGroupCSS}>
             <Button onClick={() => { window.open('https://www.linkedin.com/in/sippakorn-raksakiart-4b5365b9/') }}>Hire me if you can</Button>
+          </div>
+          <div {...buttonGroupCSS} {...iconButton}>
+            <div {...paddingLeftRight}>
+              <a href="https://github.com/spksoft" target="_blank"><img width={16} height={16} src="img/github-logo.png" /></a>
+            </div>
+            <div {...paddingLeftRight}>
+              <a href="https://medium.com/@sippakornraksakiart" target="_blank"><img width={16} height={16} src="img/medium-size.png" /></a>
+            </div>
+            <div {...paddingLeftRight}>
+              <a href="mailto:spkrsk.37@gmail.com"><img width={16} height={16} src="img/opened-email-envelope.png" /></a>
+            </div>
           </div>
         </Content>
       </ContentContainer>
