@@ -35,7 +35,7 @@ export default () => (
           <ContentContainer>
             <h1>Sippakorn Raksakiart</h1>
           </ContentContainer>
-          <div style={{ padding: '0px 500px 0px 500px' }}>
+          <div style={{ padding: '0px 40% 0px 40%' }}>
           I am a web developer, software engineer, and project manager currently living in Bangkok, Thailand. My interests range from photography to technology. I am also interested in entrepreneurship, reading, and movies.You can click the button 'Hire me if you can' to hire me. If you’d like to get in touch, feel free to say hello through any of the social links below.
           </div>
           <div {...buttonGroupCSS}>
