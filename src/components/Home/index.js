@@ -31,7 +31,10 @@ export default () => (
   <PageContainer>
     <ContentContainer style={{ margin: '0px auto 0px auto' }}>
       <Content>
-        <div>
+        <div style={{ margin: '50px 0px 0px 0px' }}>
+          <ContentContainer>
+            <img height="100" width="100" style={{ borderRadius: '50%' }} alt="Avatar" src="img/profile.jpg" />
+          </ContentContainer>
           <ContentContainer>
             <h1>Sippakorn Raksakiart</h1>
           </ContentContainer>
