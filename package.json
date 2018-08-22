@@ -24,7 +24,7 @@
     "babel-plugin-tailwind": "^0.1.8",
     "eslint-config-react-tools": "1.x.x",
     "postcss-cli": "^4.1.1",
-    "serve": "^6.1.0",
+    "serve": "^7.0.0",
     "tailwindcss": "^0.3.0"
   },
   "eslintIgnore": [
