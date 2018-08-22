@@ -29,18 +29,18 @@ const paddingLeftRight = css({
 
 export default () => (
   <PageContainer>
-    <ContentContainer>
+    <ContentContainer style={{ margin: '0px auto 0px auto' }}>
       <Content>
         <div>
           <ContentContainer>
             <h1>Sippakorn Raksakiart</h1>
           </ContentContainer>
-          <div style={{ padding: '0px 500px 0px 500px' }}>
+          <div style={{ margin: '0px auto 0px auto', padding: '0px 50px 0px 50px', maxWidth: '500px', minWidth: '100px' }}>
           I am a web developer, software engineer, and project manager currently living in Bangkok, Thailand. My interests range from photography to technology. I am also interested in entrepreneurship, reading, and movies.You can click the button 'Hire me if you can' to hire me. If you’d like to get in touch, feel free to say hello through any of the social links below.
           </div>
-          <div {...buttonGroupCSS}>
+          <a {...buttonGroupCSS}>
             <Button onClick={() => { window.open('https://www.linkedin.com/in/sippakorn-raksakiart-4b5365b9/') }}>Hire me if you can</Button>
-          </div>
+          </a>
           <div {...buttonGroupCSS} {...iconButton}>
             <div {...paddingLeftRight}>
               <a href="https://github.com/spksoft" target="_blank"><img width={16} height={16} src="img/github-logo.png" /></a>
