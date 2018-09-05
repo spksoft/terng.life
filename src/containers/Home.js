@@ -5,7 +5,7 @@ import HomeComponent from '../components/Home'
 export default withSiteData(() => (
   <div>
     <head>
-      <title>Terng life is all about my life</title>
+      <title>Terng life is all about my life !!!</title>
     </head>
     <HomeComponent />
   </div>
