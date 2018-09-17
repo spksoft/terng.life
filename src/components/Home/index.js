@@ -39,7 +39,7 @@ export default () => (
             <h1>Sippakorn Raksakiart</h1>
           </ContentContainer>
           <div style={{ margin: '0px auto 0px auto', padding: '0px 50px 0px 50px', maxWidth: '500px', minWidth: '100px' }}>
-          Hello, My name is Sippakorn Raksakiart (Terng). Now, I'm a Software Architect at TrueCorp. I learn programming since I was 13 year olds and I'm a owner of sPkAutorunkiller. It's a autorun killer program that was publish to COMPUTER.TODAY magazine. I'm the first developer at FINSTREET.co.
+          Hello, My name is Sippakorn Raksakiart (Terng). Now, I'm a Software Architect at TrueCorp. I learn programming since I was 13 year olds and I'm a owner of sPkAutorunkiller. It's a autorun killer program that was publish to COMPUTER.TODAY magazine. I'm the first developer at FINSTREET.co. If you wanna hire me let click 'Hire me if you can' button below.
           </div>
           <div {...buttonGroupCSS}>
             <Button style={{ cursor: 'pointer' }} onClick={() => { window.open('https://www.linkedin.com/in/sippakorn-raksakiart-4b5365b9/') }}>Hire me if you can</Button>
