@@ -9,16 +9,10 @@ jobs:
       only:
         - master
     docker:
-      - image: alpine
-    working_directory: ~
+      - image: circleci/node:8.12
+    working_directory: ~/terng.life
     steps:
       - checkout
-      - run: apk update
-      - run: apk add openssh
-      - run: rm -rf ~/.ssh
-      - run: mkdir ~/.ssh
-      - run: echo $privatekey > temp_base64_private
-      - run: base64 -d temp_base64_private > ~/.ssh/id_rsa
-      - run: chmod 600 ~/.ssh/id_rsa
-      - run: rm -rf temp_base64_private
-      - run: ssh -o "StrictHostKeyChecking no" -t $host_username@$host_ip "source ~/script-clone-frontend.sh"
+      - run: yarn
+      - run: yarn build
+      - run: cd ~/terng.life && ./node_modules/.bin/firebase deploy --token "$FIREBASE_TOKEN"

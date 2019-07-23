@@ -24,6 +24,7 @@
   "devDependencies": {
     "babel-plugin-tailwind": "^0.1.8",
     "eslint-config-react-tools": "1.x.x",
+    "firebase-tools": "^7.1.1",
     "postcss-cli": "^4.1.1",
     "serve": "^7.0.0",
     "tailwindcss": "^0.3.0"
