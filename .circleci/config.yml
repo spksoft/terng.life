@@ -14,5 +14,5 @@ jobs:
     steps:
       - checkout
       - run: yarn
-      - run: yarn build
+      - run: gatsby build
       - run: cd ~/terng.life && ./node_modules/.bin/firebase deploy --token "$FIREBASE_TOKEN"
