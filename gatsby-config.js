@@ -4,7 +4,7 @@ module.exports = {
     author: `Sippakorn Raksakiart (spksoft)`,
     aboutMe: `Hello, My name is Sippakorn Raksakiart (Terng). Now, I'm a Senior Software Engineer at Deeple AI. I learn programming since I was 13 year olds and I'm a owner of sPkAutorunkiller. It's a autorun killer program that was publish to COMPUTER.TODAY magazine. I'm the first developer at FINSTREET.co.`,
     description: `A 127.0.0.1 of Sippakorn R.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://terng.life`,
     social: {
       facebook: `spkrsk`,
       github: `https://github.com/spksoft`,
