@@ -1,5 +1,5 @@
 ---
-title: Anchoring Effect - ผลของความประทับใจแรก (part 1)
+title: Anchoring Effect - ว่าด้วยเรื่องของ First impression (part 1)
 date: "2019-09-11T11:46:24.304Z"
 description: "สรุปหนังสือ ทุกพฤติกรรมมีความเสี่ยงโปรดอย่าลำเอียงก่อนตัดสินใจ ในบทความนี้จะสรุปในเรื่อง anchoring effect หรือ ผลของความประทับใจแรก"
 ---
