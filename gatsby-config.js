@@ -8,6 +8,7 @@ module.exports = {
     social: {
       facebook: `spkrsk`,
       github: `https://github.com/spksoft`,
+      resume: `https://resume.github.io/?spksoft`,
     },
   },
   plugins: [
@@ -68,7 +69,6 @@ module.exports = {
         icon: `content/assets/profile-pic.jpg`,
       },
     },
-    `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-typography`,

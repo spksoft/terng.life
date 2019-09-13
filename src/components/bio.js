@@ -28,6 +28,7 @@ const Bio = () => {
           social {
             facebook
             github
+            resume
           }
         }
       }
@@ -60,6 +61,9 @@ const Bio = () => {
         <p>{aboutMe}</p>
         {` `}
         <a href={social.github}>Github</a>
+        <a style={{ paddingLeft: "10px" }} href={social.resume}>
+          Resume
+        </a>
       </p>
     </div>
   )
