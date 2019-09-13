@@ -69,6 +69,7 @@ module.exports = {
         icon: `content/assets/profile-pic.jpg`,
       },
     },
+    `gatsby-plugin-remove-serviceworker`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-typography`,
