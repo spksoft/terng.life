@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-import Header from '@/components/Header'
+import Header from '@/components/common/Header'
 
 const Home: NextPage = () => {
   const menu = [
