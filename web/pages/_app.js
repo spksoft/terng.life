@@ -1,4 +1,10 @@
 import '../styles/globals.css'
+import { config } from '@fortawesome/fontawesome-svg-core'
+import '@fortawesome/fontawesome-svg-core/styles.css'
+import * as dayjs from 'dayjs'
+import calendar from 'dayjs/plugin/calendar'
+dayjs.extend(calendar)
+config.autoAddCss = false
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
