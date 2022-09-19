@@ -5,7 +5,7 @@ function Page({ children }) {
     <div className="space-y-4">
       <Header />
       <div>{children}</div>
-      <div>Footer</div>
+      <div></div>
     </div>
   )
 }

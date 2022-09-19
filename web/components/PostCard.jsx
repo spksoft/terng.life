@@ -28,7 +28,7 @@ function HashtagsList({ hashtags = ["#programming", "#bigdata"] }) {
   return (
     <div className="flex flex-row space-x-2">
       {hashtags.map((hashtag, i) => (
-        <div key={`hashtags-${i}`} class="badge">
+        <div key={`hashtags-${i}`} className="badge">
           {hashtag}
         </div>
       ))}

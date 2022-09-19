@@ -1,0 +1,12 @@
+version: "3.7"
+services:
+  database:
+    image: mongo:6.0
+    ports:
+      - 27017:27017
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=toor
+      - MONGO_INITDB_DATABASE=terng_life
+      - MONGO_INITDB_USERNAME=terng_life
+      - MONGO_INITDB_PASSWORD=terng_life
