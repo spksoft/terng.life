@@ -28,7 +28,7 @@ function HashtagsList({ hashtags = ["#programming", "#bigdata"] }) {
   return (
     <div className="flex flex-row space-x-2">
       {hashtags.map((hashtag, i) => (
-        <div key={`hashtags-${i}`} className="badge">
+        <div key={`hashtags-${i}`} className="badge hover:bg-primary hover:cursor-pointer">
           {hashtag}
         </div>
       ))}
@@ -40,7 +40,7 @@ function PostCard({ title }) {
   return (
     <SimpleCard>
       <div className="flex flex-col space-y-4">
-        <h2 className="text-xl font-extrabold">
+        <h2 className="text-xl font-extrabold hover:text-primary hover:cursor-pointer">
           {title ||
             "Yesterday I received my 100th rejection letter. What am I doing wrong?"}
         </h2>
