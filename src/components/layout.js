@@ -67,7 +67,7 @@ class Layout extends React.Component {
           />
           <meta http-equiv="Pragma" content="no-cache" />
           <meta http-equiv="Expires" content="0" />
-          <Script src="https://www.googletagmanager.com/gtag/js?id=G-MLQWP1PW8P"></script>
+          <Script src="https://www.googletagmanager.com/gtag/js?id=G-MLQWP1PW8P"></Script>
           <Script id="ga-script">{`
           window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
