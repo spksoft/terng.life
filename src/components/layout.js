@@ -1,6 +1,6 @@
 import React from "react"
 import Helmet from "react-helmet"
-import { Link, Script } from "gatsby"
+import { Link } from "gatsby"
 import { rhythm, scale } from "../utils/typography"
 
 class Layout extends React.Component {
@@ -67,14 +67,6 @@ class Layout extends React.Component {
           />
           <meta http-equiv="Pragma" content="no-cache" />
           <meta http-equiv="Expires" content="0" />
-          <Script src="https://www.googletagmanager.com/gtag/js?id=G-MLQWP1PW8P"></Script>
-          <Script id="ga-script">{`
-          window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-MLQWP1PW8P');
-          `}</Script>
         </Helmet>
         <header>{header}</header>
         <main>{children}</main>
