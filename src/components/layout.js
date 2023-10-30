@@ -73,7 +73,7 @@ class Layout extends React.Component {
         <footer>
           © {new Date().getFullYear()}, Copyright
           {` `}
-          <a href="https://terng.life">TERNG.LIFE</a>
+          <a href="https://terng.me">TERNG.ME</a>
         </footer>
       </div>
     )

@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `TERNG.LIFE`,
+    title: `TERNG.ME`,
     author: `Sippakorn Raksakiart (spksoft)`,
     aboutMe: `Hello, My name is Sippakorn Raksakiart (Terng). Now, I'm a Solution Engineer at LINE. I learn programming since I was 13 year olds and I'm a owner of sPkAutorunkiller. It's a autorun killer program that was publish to COMPUTER.TODAY magazine. I'm the first developer at FINSTREET.co. `,
     description: `A 127.0.0.1 of Sippakorn R.`,
-    siteUrl: `https://terng.life`,
+    siteUrl: `https://terng.me`,
     social: {
       facebook: `spkrsk`,
       github: `https://github.com/spksoft`,
@@ -60,8 +60,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `TERNG.LIFE Blog`,
-        short_name: `TERNG.LIFE`,
+        name: `TERNG.ME Blog`,
+        short_name: `TERNG.ME`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
